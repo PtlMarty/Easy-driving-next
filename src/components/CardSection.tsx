@@ -15,7 +15,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
             <div className="relative w-full h-full">
               <Image
                 src="/haneda.jpg"
-                alt="haneda airport"
+                alt="haneda airport transfer"
                 width={1110}
                 height={300}
                 className="absolute inset-0 w-full h-full object-cover opacity-25 "
