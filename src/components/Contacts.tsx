@@ -72,7 +72,12 @@ const Contacts = () => {
         <div>
           <Dialog>
             <DialogTrigger className="flex flex-col items-center">
-              <Image src="./LINE_logo.svg" alt="line" width={32} height={32} />
+              <Image
+                src="/Easy-driving-next/LINE_logo.svg"
+                alt="line"
+                width={32}
+                height={32}
+              />
             </DialogTrigger>
             <DialogContent className="p-0">
               <DialogHeader>
@@ -81,13 +86,13 @@ const Contacts = () => {
                 </DialogTitle>
                 <DialogDescription className="flex bg-white justify-center">
                   <Image
-                    src="/line-qr1.png"
+                    src="/Easy-driving-next/line-qr1.png"
                     alt="Line1"
                     width={150}
                     height={150}
                   />
                   <Image
-                    src="/line-qr2.png"
+                    src="/Easy-driving-next/line-qr2.png"
                     alt="Line2"
                     width={150}
                     height={150}
@@ -102,7 +107,7 @@ const Contacts = () => {
           <Dialog>
             <DialogTrigger className="flex flex-col items-center">
               <Image
-                src="./WhatsApp.svg"
+                src="/Easy-driving-next/WhatsApp.svg"
                 alt="whatsapp"
                 width={32}
                 height={32}
@@ -115,13 +120,13 @@ const Contacts = () => {
                 </DialogTitle>
                 <DialogDescription className="flex bg-white justify-center">
                   <Image
-                    src="/Wapp-qr1.png"
+                    src="/Easy-driving-next/Wapp-qr1.png"
                     alt="Whatsapp1"
                     width={150}
                     height={150}
                   />
                   <Image
-                    src="/Wapp-qr2.png"
+                    src="/Easy-driving-next/Wapp-qr2.png"
                     alt="Whatsapp2"
                     width={150}
                     height={150}

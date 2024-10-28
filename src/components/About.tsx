@@ -16,7 +16,7 @@ const About = () => {
           </aside>
           <aside className="rounded-md mt-3">
             <Image
-              src="/group-person.jpg"
+              src="/Easy-driving-next/group-person.jpg"
               alt="group"
               width={768}
               height={512}

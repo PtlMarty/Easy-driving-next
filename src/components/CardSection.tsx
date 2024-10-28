@@ -7,17 +7,17 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
     >
       <CardItem
         imageSrc="/Easy-driving-next/haneda.jpg"
-        logoSrc="/logo-haneda.jpg"
+        logoSrc="/Easy-driving-next/logo-haneda.jpg"
         altText="haneda airport transfer"
       />
       <CardItem
         imageSrc="/Easy-driving-next/haneda.jpg"
-        logoSrc="/logo-haneda.jpg"
+        logoSrc="/Easy-driving-next/logo-haneda.jpg"
         altText="haneda airport"
       />
       <CardItem
         imageSrc="/Easy-driving-next/haneda.jpg"
-        logoSrc="/logo-haneda.jpg"
+        logoSrc="/Easy-driving-next/logo-haneda.jpg"
         altText="haneda airport"
       />
     </section>
