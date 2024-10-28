@@ -1,8 +1,7 @@
-const nextConfig = {
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || "",
-  images: {
-    unoptimized: true,
-  },
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
 export default nextConfig;
