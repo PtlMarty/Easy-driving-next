@@ -2,8 +2,6 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 import { Button } from "./ui/button";
 
-//todo add button to pop up a modal with more details about the transfer
-
 const CardSection = ({ ClassName }: { ClassName: string }) => {
   return (
     <section
@@ -52,7 +50,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <Image
-                  src="/logo-haneda.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                   alt=""
                   width={64}
                   height={300}
