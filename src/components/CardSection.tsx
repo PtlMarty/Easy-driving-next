@@ -44,7 +44,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
           <CardContent className="flex flex-col justify-center items-center flex-grow relative">
             <div className="relative w-full h-full">
               <Image
-                src="/haneda.jpg"
+                src="/logo-haneda.jpg"
                 alt="haneda airport"
                 width={1110}
                 height={300}
@@ -74,7 +74,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
           <CardContent className="flex flex-col justify-center items-center flex-grow relative">
             <div className="relative w-full h-full">
               <Image
-                src="/haneda.jpg"
+                src="/logo-haneda.jpg"
                 alt="haneda airport"
                 width={1110}
                 height={300}
@@ -83,7 +83,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
               <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <Image
                   src="/logo-haneda.jpg"
-                  alt=""
+                  alt="Description de l'image"
                   width={64}
                   height={300}
                   className="h-16 w-16"
