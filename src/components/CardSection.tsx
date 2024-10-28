@@ -14,7 +14,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
           <CardContent className="flex flex-col justify-center items-center flex-grow relative">
             <div className="relative w-full h-full">
               <Image
-                src="/haneda.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                 alt="haneda airport"
                 width={1110}
                 height={300}
@@ -22,11 +22,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <Image
-                  src={`${
-                    process.env.NODE_ENV === "production"
-                      ? "/repository-name"
-                      : ""
-                  }/logo-haneda.jpg`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                   alt=""
                   width={64}
                   height={300}
@@ -48,11 +44,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
           <CardContent className="flex flex-col justify-center items-center flex-grow relative">
             <div className="relative w-full h-full">
               <Image
-                src={`${
-                  process.env.NODE_ENV === "production"
-                    ? "/repository-name"
-                    : ""
-                }/logo-haneda.jpg`}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                 alt="haneda airport"
                 width={1110}
                 height={300}
@@ -60,11 +52,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <Image
-                  src={`${
-                    process.env.NODE_ENV === "production"
-                      ? "/repository-name"
-                      : ""
-                  }/logo-haneda.jpg`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                   alt=""
                   width={64}
                   height={300}
@@ -86,11 +74,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
           <CardContent className="flex flex-col justify-center items-center flex-grow relative">
             <div className="relative w-full h-full">
               <Image
-                src={`${
-                  process.env.NODE_ENV === "production"
-                    ? "/repository-name"
-                    : ""
-                }/logo-haneda.jpg`}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                 alt="haneda airport"
                 width={1110}
                 height={300}
@@ -98,11 +82,7 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <Image
-                  src={`${
-                    process.env.NODE_ENV === "production"
-                      ? "/repository-name"
-                      : ""
-                  }/logo-haneda.jpg`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}logo-haneda.jpg`}
                   alt="Description de l'image"
                   width={64}
                   height={300}
