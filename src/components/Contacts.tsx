@@ -54,12 +54,12 @@ const Contacts = () => {
                 <DialogTitle className="text-center font-bold text-primary">
                   Contact Us
                 </DialogTitle>
-                <div className="flex flex-col bg-white justify-center items-center gap-5 my-3 text-sm text-muted-foreground">
-                  <div className="flex items-center">
+                <div className="flex flex-col bg-white justify-center items-center gap-5 m-3 text-sm text-muted-foreground">
+                  <div className="flex items-center pt-3">
                     <Smartphone className="text-blue-600" />
                     <div>+81 70-3369-4539</div>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center pb-3">
                     <Smartphone className="text-blue-600" />
                     <div>+81 90-5416-5083</div>
                   </div>
@@ -72,12 +72,7 @@ const Contacts = () => {
         <div>
           <Dialog>
             <DialogTrigger className="flex flex-col items-center">
-              <Image
-                src="/Easy-driving-next/LINE_logo.svg"
-                alt="line"
-                width={32}
-                height={32}
-              />
+              <Image src="/LINE_logo.svg" alt="line" width={32} height={32} />
             </DialogTrigger>
             <DialogContent className="p-0">
               <DialogHeader>
@@ -86,13 +81,13 @@ const Contacts = () => {
                 </DialogTitle>
                 <DialogDescription className="flex bg-white justify-center">
                   <Image
-                    src="/Easy-driving-next/line-qr1.png"
+                    src="/line-qr1.png"
                     alt="Line1"
                     width={150}
                     height={150}
                   />
                   <Image
-                    src="/Easy-driving-next/line-qr2.png"
+                    src="/line-qr2.png"
                     alt="Line2"
                     width={150}
                     height={150}
@@ -107,7 +102,7 @@ const Contacts = () => {
           <Dialog>
             <DialogTrigger className="flex flex-col items-center">
               <Image
-                src="/Easy-driving-next/WhatsApp.svg"
+                src="/WhatsApp.svg"
                 alt="whatsapp"
                 width={32}
                 height={32}
@@ -120,13 +115,13 @@ const Contacts = () => {
                 </DialogTitle>
                 <DialogDescription className="flex bg-white justify-center">
                   <Image
-                    src="/Easy-driving-next/Wapp-qr1.png"
+                    src="/Wapp-qr1.png"
                     alt="Whatsapp1"
                     width={150}
                     height={150}
                   />
                   <Image
-                    src="/Easy-driving-next/Wapp-qr2.png"
+                    src="/Wapp-qr2.png"
                     alt="Whatsapp2"
                     width={150}
                     height={150}

@@ -9,11 +9,11 @@ const Hero = ({ className }: HeroProps) => {
   return (
     <div className={`relative rounded-xl ${className}`}>
       <Image
-        src="/Easy-driving-next/road-5089188_1280.jpg"
+        src="/road-5089188_1280.jpg"
         alt="hero1"
         width={1920}
         height={1080}
-        className="object-cover rounded-2xl"
+        className="object-cover rounded-2xl m-auto"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
         <p className="text-2xl font-bold mb-4">Welcome to my website</p>

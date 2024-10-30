@@ -6,18 +6,18 @@ const CardSection = ({ ClassName }: { ClassName: string }) => {
       className={`flex sm:flex-col gap-3 justify-center m-auto ${ClassName}`}
     >
       <CardItem
-        imageSrc="/Easy-driving-next/haneda.jpg"
-        logoSrc="/Easy-driving-next/logo-haneda.jpg"
+        imageSrc="/haneda.jpg"
+        logoSrc="/logo-haneda.jpg"
         altText="haneda airport transfer"
       />
       <CardItem
-        imageSrc="/Easy-driving-next/haneda.jpg"
-        logoSrc="/Easy-driving-next/logo-haneda.jpg"
+        imageSrc="/haneda.jpg"
+        logoSrc="/logo-haneda.jpg"
         altText="haneda airport"
       />
       <CardItem
-        imageSrc="/Easy-driving-next/haneda.jpg"
-        logoSrc="/Easy-driving-next/logo-haneda.jpg"
+        imageSrc="/haneda.jpg"
+        logoSrc="/logo-haneda.jpg"
         altText="haneda airport"
       />
     </section>
