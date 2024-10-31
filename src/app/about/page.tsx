@@ -7,10 +7,10 @@ function AboutPage() {
 
   return (
     <>
-      <main className="w-full p-2 ">
+      <main className="w-full">
         <Header />
         <About />
-        <Contacts />
+        <Contacts className="sticky bottom-0 mt-12z-30 justify-center ite bg-white h-[100px]" />
       </main>
     </>
   );

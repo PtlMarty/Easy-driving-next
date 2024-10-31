@@ -13,7 +13,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import InquiryForm from "./InquiryForm";
 
-const Contacts = () => {
+const Contacts = ({ className }: { className: string }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -23,15 +23,15 @@ const Contacts = () => {
   if (!mounted) return null;
 
   return (
-    <section>
-      <aside className="flex gap-6 m-auto justify-center items-center">
+    <section className={className}>
+      <aside className="flex gap-6 bottom-0  justify-center items-center">
         {/* EMAIL */}
         <div>
           <Dialog>
             <DialogTrigger className="flex flex-col items-center">
               <Mails className="text-blue-600" />
             </DialogTrigger>
-            <DialogContent className="bg-white flex align-middle justify-center p-4">
+            <DialogContent className="bg-white flex align-middle justify-center">
               <DialogHeader>
                 <DialogTitle className="text-center font-bold text-primary">
                   Contact Us
@@ -54,7 +54,7 @@ const Contacts = () => {
                 <DialogTitle className="text-center font-bold text-primary">
                   Contact Us
                 </DialogTitle>
-                <div className="flex flex-col bg-white justify-center items-center gap-5 m-3 text-sm text-muted-foreground">
+                <div className="flex flex-col bg-white justify-center items-center gap-5 text-sm text-muted-foreground">
                   <div className="flex items-center pt-3">
                     <Smartphone className="text-blue-600" />
                     <div>+81 70-3369-4539</div>

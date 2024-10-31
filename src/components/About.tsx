@@ -3,24 +3,28 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-      <section className="flex items-center justify-center">
-        <div className="xl:grid grid-flow-col xl:grid-cols-2 gap-8 max-w-full m-6 items-center  ">
+      <section className="flex items-center justify-center mx-8">
+        <div className="xl:grid grid-flow-col gap-8 max-w-full  ">
           <aside className="grid gap-4">
-            <h2 className="text-4xl text-primary font-extrabold">About Us</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              quis perspiciatis accusantium. Doloribus commodi, repudiandae
-              minus eaque, quaerat magnam nostrum, quo sint animi soluta
-              obcaecati pariatur aliquam deserunt expedita! Illum.
-            </p>
+            <div className="items-center flex flex-col justify-center">
+              <h2 className="text-4xl text-primary font-extrabold text-center my-8">
+                About Us
+              </h2>
+              <p className="m-4 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                quis perspiciatis accusantium. Doloribus commodi, repudiandae
+                minus eaque, quaerat magnam nostrum, quo sint animi soluta
+                obcaecati pariatur aliquam deserunt expedita! Illum.
+              </p>
+            </div>
           </aside>
-          <aside className="rounded-md mt-3">
+          <aside className="rounded-sm">
             <Image
               src="/group-person.jpg"
               alt="group"
               width={768}
               height={512}
-              className="object-cover rounded-xl"
+              className="object-fit rounded-sm"
             />
           </aside>
         </div>

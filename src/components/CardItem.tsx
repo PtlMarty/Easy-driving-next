@@ -10,36 +10,34 @@ interface CardItemProps {
 
 const CardItem = ({ imageSrc, logoSrc, altText }: CardItemProps) => {
   return (
-    <div className="rounded-xl card-section">
-      <Card className="size-96 flex flex-col border-none shadow-none m-6">
-        <CardContent className="flex flex-col justify-center items-center flex-grow relative">
-          <div className="relative w-full h-full">
+    <Card className="size-96 flex flex-col border-none shadow-none mt-3">
+      <CardContent className="flex flex-col justify-center items-center flex-grow relative">
+        <div className="relative w-full h-full">
+          <Image
+            src={imageSrc}
+            alt={altText}
+            width={1110}
+            height={300}
+            className="absolute  w-full h-full object-cover opacity-50"
+          />
+          <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
             <Image
-              src={imageSrc}
-              alt={altText}
-              width={1110}
+              src={logoSrc}
+              alt="logo"
+              width={64}
               height={300}
-              className="absolute inset-0 w-full h-full object-cover opacity-25"
+              className="h-16 w-16"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
-              <Image
-                src={logoSrc}
-                alt=""
-                width={64}
-                height={300}
-                className="h-16 w-16"
-              />
-              <p>Your transfer From Haneda to your Hotel</p>
-              <div className="flex justify-center items-center mt-3">
-                <CardFooter>
-                  <Button variant="default">Click Here</Button>
-                </CardFooter>
-              </div>
+            <p>Your transfer From Haneda to your Hotel</p>
+            <div className="flex justify-center items-center mt-3 z-10">
+              <CardFooter>
+                <Button variant="default">Click Here</Button>
+              </CardFooter>
             </div>
           </div>
-        </CardContent>
-      </Card>
-    </div>
+        </div>
+      </CardContent>
+    </Card>
   );
 };
 
